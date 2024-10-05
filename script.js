@@ -12,6 +12,6 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
         window.location.reload();
     } else {
         // Tampilkan pesan error jika login gagal
-        document.getElementById('errorMessage').textContent = 'Username atau password salah!';
+        alert('Login Gagal');
     }
 });
